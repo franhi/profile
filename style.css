@@ -1,0 +1,64 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #4f5d75;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a:hover{
+  color: #0e36e4;
+}
+
+img {
+
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+}
+
+body {
+  background: #bfc0c0;
+  font-family: 'EB Garamond', serif;
+}
+
+#pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  padding: 0;
+  border: 1px solid white;
+  opacity: 1 !important;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+}
+
+
+.card {
+background: rgba(238, 245, 219, 0.8);
+padding: 20px;
+margin: 30px;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+
+#myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  z-index: -100;
+}
